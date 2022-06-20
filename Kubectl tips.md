@@ -15,6 +15,7 @@ kubectl create deployment deploymentname --image=nginx --dry-run -o yaml
 ```
 ### Inspecting pod resource usage
 #### Kubernetes Metrics Server
+An add-on to use kubectl top
 #### Kubectl top
 ```Command
 kubectl top pod --sort-by cpu/name/memory
