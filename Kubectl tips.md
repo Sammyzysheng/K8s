@@ -13,3 +13,12 @@ use the Docs: like deployment scrips
 ```Command
 kubectl create deployment deploymentname --image=nginx --dry-run -o yaml
 ```
+### Inspecting pod resource usage
+#### Kubernetes Metrics Server
+#### Kubectl top
+```Command
+kubectl top pod --sort-by cpu/name/memory
+kubectl top pod --selector app=metrics-test
+kubectl top node
+# View data about resourse usage
+```
